@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    background-image: url("start.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.balls{
+    width: 100px;
+    height: 100px;
+}
+
+.ball1{
+    align-items: center;
+}
+
+.ball2{
+    align-items: center;
+}
+
+.ball3{
+    align-items: center;
+}
+
+.poke{
+    width: 200px;
+    height: 200px;
+}
+
+.poke1{
+    align-items: center;
+}
+
+.poke2{
+    align-items: center;
+}
+
+.poke3{
+    align-items: center;
+}
