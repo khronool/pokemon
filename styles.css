@@ -4,10 +4,9 @@
     margin: 20px;
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: medium;
+    background-color: white;
     position: sticky;
     bottom: 20px;
-    background-color: white;
-    justify-content: center;
 }
 
 .middleimage{
@@ -15,13 +14,43 @@
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    height: 40%;
 }
 
 .labbackground{
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59239705-5ebf-4a7a-9dee-5dd305685980/d6yvanq-ff9f936f-fae7-4140-a14a-90d465d0ee63.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTkyMzk3MDUtNWViZi00YTdhLTlkZWUtNWRkMzA1Njg1OTgwXC9kNnl2YW5xLWZmOWY5MzZmLWZhZTctNDE0MC1hMTRhLTkwZDQ2NWQwZWU2My5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.8GcUQZWyduoDw0097aVk-qLfwQg3Optbw9Sa3-S6eO8);
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    position: sticky;
+    bottom: 20px;
+}
+
+.flex-textbox {
+    flex: 1;
+    flex-grow: 2;
+    margin: 20px;
+    border: 10px inset rgb(40, 167, 206);
+    padding: 20px;
+    background-color: white;
+}  
+
+.flex-choice {
+    margin: 20px;
+    border: 10px inset rgb(40, 167, 206);
+    padding: 20px;
+    background-color: white;
+}  
+
+.item-choice {
+    color:black;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 *{
@@ -30,6 +59,7 @@
 
 h1{
     font-family: 'Press Start 2P', cursive;
+    font-size: large;
 }
 
 .container{
