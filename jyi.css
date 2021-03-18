@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+}
+
+/* STARTER HTML */
+
+.textbox{
+    border: 10px inset rgb(40, 167, 206);
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: medium;
+    position: sticky;
+    bottom: 20px;
+    background-color: white;
+    justify-content: center;
+}
+
+.labbackground{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59239705-5ebf-4a7a-9dee-5dd305685980/d6yvanq-ff9f936f-fae7-4140-a14a-90d465d0ee63.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTkyMzk3MDUtNWViZi00YTdhLTlkZWUtNWRkMzA1Njg1OTgwXC9kNnl2YW5xLWZmOWY5MzZmLWZhZTctNDE0MC1hMTRhLTkwZDQ2NWQwZWU2My5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.8GcUQZWyduoDw0097aVk-qLfwQg3Optbw9Sa3-S6eO8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.container{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+
+.balls{
+    width: 100px;
+    height: 100px;
+}
+
+.ball1{
+    align-items: center;
+}
+
+.ball2{
+    align-items: center;
+}
+
+.ball3{
+    align-items: center;
+}
+
+.poke{
+    width: 200px;
+    height: 200px;
+}
+
+.poke1{
+    align-items: center;
+}
+
+.poke2{
+    align-items: center;
+}
+
+.poke3{
+    align-items: center;
+}
+
+/* END HTML */
+/* END TEXTBOX */
+.endtextbox{
+    border: 10px inset rgb(40, 167, 206);
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    position: sticky;
+    bottom: 20px;
+    background-color: white;
+    justify-content: center;
+}
+
+/* END HTML BACKGROUNDS */
+.endbackground{
+    background-image: url(https://cdn.bulbagarden.net/upload/6/6a/Amie_Yellow_Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.endbackground1{
+    background-image: url(https://cdn.bulbagarden.net/upload/5/59/Amie_Green_Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.endbackground2{
+    background-image: url(https://cdn.bulbagarden.net/upload/4/49/Amie_Purple_Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.endbackground3{
+    background-image: url(https://cutewallpaper.org/21/8-bit-gif-background/8-Bit-Day-Gif-Hd-Wallpapers-backgrounds-Download-.gif);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    justify-content: center;
+}
+
+/* END HTML DISPLAY SIZE */
+.endcontainer{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    margin-top: 10%;
+}
+
+/* END HTML ITEMS */
+.item1{
+    /* align-items: center; */
+    height: 320px;
+    width: 320px;
+}
+
+.item2{
+    /* align-items: center; */
+    height: 250px;
+    width: 250px;
+}
+
+.item3{
+    /* align-items: center; */
+    height: 320px;
+    width: 320px;
+}
+
+/* END HTML RUN ITEMS */
+.run{
+    font-size: smaller;
+}
+
+.run1{
+    height: 190px;
+    width: 190px;
+    margin-top: 26%;
+}
+
+.run2{
+    height: 190px;
+    width: 190px;
+    margin-top: 26%;
+}
