@@ -67,7 +67,7 @@
 }
 
 /* END HTML */
-
+/* END TEXTBOX */
 .endtextbox{
     border: 10px inset rgb(40, 167, 206);
     padding: 20px;
@@ -80,36 +80,54 @@
     justify-content: center;
 }
 
+/* END HTML BACKGROUNDS */
 .endbackground{
+    background-image: url(https://cdn.bulbagarden.net/upload/6/6a/Amie_Yellow_Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.endbackground1{
     background-image: url(https://cdn.bulbagarden.net/upload/5/59/Amie_Green_Wallpaper.png);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
 }
 
+.endbackground2{
+    background-image: url(https://cdn.bulbagarden.net/upload/4/49/Amie_Purple_Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+/* END HTML DISPLAY SIZE */
 .endcontainer{
     height: 30vh;
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
+    flex-flow: row;
+    margin-top: 10%;
 }
 
+/* END HTML ITEMS */
 .item1{
-    align-items: center;
+    /* align-items: center; */
     height: 320px;
     width: 320px;
 }
 
 .item2{
-    align-items: center;
+    /* align-items: center; */
     height: 250px;
     width: 250px;
 }
 
 .item3{
-    align-items: center;
+    /* align-items: center; */
     height: 320px;
     width: 320px;
 }
