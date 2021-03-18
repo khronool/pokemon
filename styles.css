@@ -17,21 +17,26 @@
     height: 40%;
 }
 
-.labbackground{
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59239705-5ebf-4a7a-9dee-5dd305685980/d6yvanq-ff9f936f-fae7-4140-a14a-90d465d0ee63.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTkyMzk3MDUtNWViZi00YTdhLTlkZWUtNWRkMzA1Njg1OTgwXC9kNnl2YW5xLWZmOWY5MzZmLWZhZTctNDE0MC1hMTRhLTkwZDQ2NWQwZWU2My5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.8GcUQZWyduoDw0097aVk-qLfwQg3Optbw9Sa3-S6eO8);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .flex-container {
     display: flex;
+    justify-content: space-evenly;
     position: sticky;
-    bottom: 20px;
+    bottom: 0;
+}
+
+.flex-container-rayquaza {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7%;
+}
+
+.flex-container-arceus {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .flex-textbox {
     flex: 1;
-    flex-grow: 2;
     margin: 20px;
     border: 10px inset rgb(40, 167, 206);
     padding: 20px;
@@ -51,6 +56,48 @@
 
 a:link {
     text-decoration: none;
+}
+
+.labbackground{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59239705-5ebf-4a7a-9dee-5dd305685980/d6yvanq-ff9f936f-fae7-4140-a14a-90d465d0ee63.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTkyMzk3MDUtNWViZi00YTdhLTlkZWUtNWRkMzA1Njg1OTgwXC9kNnl2YW5xLWZmOWY5MzZmLWZhZTctNDE0MC1hMTRhLTkwZDQ2NWQwZWU2My5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.8GcUQZWyduoDw0097aVk-qLfwQg3Optbw9Sa3-S6eO8);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ruinsbackground{
+    background-image: url(https://i.redd.it/ulisszd010r41.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lakesidebackground{
+    background-image: url(https://data.whicdn.com/images/310371956/original.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.volcanobackground{
+    background-image: url(https://i.imgur.com/zHb0ydy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.factorybackground{
+    background-image: url(https://lh3.googleusercontent.com/proxy/hWtiEJJ9dGj6HtctYzQ3iHBsjmHsKdx-ZFpbBZ4RNsBp8hSG0zOQTU35ww9Qd8F5TI2FtYECW_AfMoonhypukQY4qi7V3bMxKZmJqMf04uQK7Bcx);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.forestbackground{
+    background-image: url(https://pbs.twimg.com/media/DVMT-6OXcAE2rZY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cemeterybackground{
+    background-image: url(https://data.whicdn.com/images/307817007/original.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 *{
