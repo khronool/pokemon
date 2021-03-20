@@ -3,13 +3,12 @@
 }
 
 /* STARTER HTML */
-
-.textbox{
+.startertextbox{
     border: 10px inset rgb(40, 167, 206);
     padding: 20px;
     margin: 20px;
     font-family: 'Press Start 2P', cursive;
-    font-size: medium;
+    font-size: small;
     position: sticky;
     bottom: 20px;
     background-color: white;
@@ -68,19 +67,6 @@
 }
 
 /* END HTML */
-/* END TEXTBOX */
-.endtextbox{
-    border: 10px inset rgb(40, 167, 206);
-    padding: 20px;
-    margin: 20px;
-    font-family: 'Press Start 2P', cursive;
-    font-size: large;
-    position: sticky;
-    bottom: 20px;
-    background-color: white;
-    justify-content: center;
-}
-
 /* END HTML BACKGROUNDS */
 .endbackground{
     background-image: url(https://cdn.bulbagarden.net/upload/6/6a/Amie_Yellow_Wallpaper.png);
@@ -110,8 +96,73 @@
     justify-content: center;
 }
 
+/* END HTML TEXTBOXES */
+.endtextbox {
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+    flex: 1;
+    margin: 20px;
+    border: 10px inset rgb(40, 167, 206);
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 10%;
+}  
+
+.option{
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    margin: 20px;
+    border: 10px inset rgb(40, 167, 206);
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 10%;
+    align-items: center;
+}  
+
+a:link{
+    text-decoration: none;
+}
+
+.restart{
+    color: black;
+}
+
+/* END HTML Container for textbox */
+.creditscontainer{
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    bottom: 0;
+}
+
 /* END HTML DISPLAY SIZE */
 .endcontainer{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+}
+
+/* END HTML ITEMS */
+.item1{
+    height: 320px;
+    width: 320px;
+}
+
+.item2{
+    height: 250px;
+    width: 250px;
+}
+
+.item3{
+    height: 320px;
+    width: 320px;
+}
+
+/* END HTML RUN ITEMS */
+.runcontainer{
     height: 30vh;
     width: 100vw;
     display: flex;
@@ -121,39 +172,12 @@
     margin-top: 10%;
 }
 
-/* END HTML ITEMS */
-.item1{
-    /* align-items: center; */
-    height: 320px;
-    width: 320px;
-}
-
-.item2{
-    /* align-items: center; */
-    height: 250px;
-    width: 250px;
-}
-
-.item3{
-    /* align-items: center; */
-    height: 320px;
-    width: 320px;
-}
-
-/* END HTML RUN ITEMS */
-
-.run{
-    font-size: smaller;
-}
-
 .run1{
     height: 190px;
     width: 190px;
-    margin-top: 26%;
 }
 
 .run2{
     height: 190px;
     width: 190px;
-    margin-top: 26%;
 }
