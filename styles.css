@@ -78,7 +78,7 @@ a:link {
 }
 
 .factorybackground{
-    background-image: url(https://lh3.googleusercontent.com/proxy/hWtiEJJ9dGj6HtctYzQ3iHBsjmHsKdx-ZFpbBZ4RNsBp8hSG0zOQTU35ww9Qd8F5TI2FtYECW_AfMoonhypukQY4qi7V3bMxKZmJqMf04uQK7Bcx);
+    background-image: url(https://lh3.googleusercontent.com/proxy/Olf5infRbQrG2qeUe2Ine5kc7HT07mTanypYpeCQmrh5dwjzgaIs7lE4vaCn4wgOaK8bOQ7Ft2Vq2sbT1h-mVv9ZhbgzAWlJ5d_qu2BAfbEhxapA);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -201,7 +201,7 @@ h1{
 /* BACKGROUNDS */
 
 .homebackground{
-    background-image: url(pictures/bedroom2.png);
+    background-image: url(images/bedroom2.png);
     background-repeat: no-repeat;
     background-size:cover;
 }
