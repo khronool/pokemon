@@ -54,55 +54,55 @@ a:link {
 }
 
 .labbackground{
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59239705-5ebf-4a7a-9dee-5dd305685980/d6yvanq-ff9f936f-fae7-4140-a14a-90d465d0ee63.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTkyMzk3MDUtNWViZi00YTdhLTlkZWUtNWRkMzA1Njg1OTgwXC9kNnl2YW5xLWZmOWY5MzZmLWZhZTctNDE0MC1hMTRhLTkwZDQ2NWQwZWU2My5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.8GcUQZWyduoDw0097aVk-qLfwQg3Optbw9Sa3-S6eO8);
+    background-image: url(images/lab.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .ruinsbackground{
-    background-image: url(https://i.redd.it/ulisszd010r41.png);
+    background-image: url(images/ruinsbg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .beachbackground{
-    background-image: url(https://data.whicdn.com/images/310371956/original.gif);
+    background-image: url(images/beachbg.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .volcanobackground{
-    background-image: url(https://i.imgur.com/zHb0ydy.gif);
+    background-image: url(images/volcanobg.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .factorybackground{
-    background-image: url(https://lh3.googleusercontent.com/proxy/Olf5infRbQrG2qeUe2Ine5kc7HT07mTanypYpeCQmrh5dwjzgaIs7lE4vaCn4wgOaK8bOQ7Ft2Vq2sbT1h-mVv9ZhbgzAWlJ5d_qu2BAfbEhxapA);
+    background-image: url(images/factorybg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .forestbackground{
-    background-image: url(https://pbs.twimg.com/media/DVMT-6OXcAE2rZY.jpg);
+    background-image: url(images/forestbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .cemeterybackground{
-    background-image: url(https://data.whicdn.com/images/307817007/original.gif);
+    background-image: url(images/cemetarybg.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .cavebackground{
-    background-image: url(https://64.media.tumblr.com/02b8deab97b5946100b9d4288eaaf039/tumblr_p1zdutBU2V1soktugo1_1280.gifv);
+    background-image: url(images/cavebg.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .seabackground{
-    background-image: url(https://i.pinimg.com/originals/82/90/57/8290570d625fde9e2fba3286af33c568.gif);
+    background-image: url(images/seabg.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
