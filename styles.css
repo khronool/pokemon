@@ -1,0 +1,282 @@
+.textbox{
+    border: 10px inset rgb(40, 167, 206);
+    padding: 20px;
+    margin: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: medium;
+    background-color: white;
+    position: sticky;
+    bottom: 20px;
+}
+
+.middleimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    bottom: 0;
+}
+
+.flex-container-rayquaza {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7%;
+}
+
+.flex-textbox {
+    flex: 1;
+    margin: 20px;
+    border: 10px inset rgb(40, 167, 206);
+    padding: 20px;
+    background-color: white;
+}  
+
+.flex-choice {
+    margin: 20px;
+    border: 10px inset rgb(40, 167, 206);
+    padding: 20px;
+    background-color: white;
+}  
+
+.item-choice {
+    color:black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.labbackground{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59239705-5ebf-4a7a-9dee-5dd305685980/d6yvanq-ff9f936f-fae7-4140-a14a-90d465d0ee63.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTkyMzk3MDUtNWViZi00YTdhLTlkZWUtNWRkMzA1Njg1OTgwXC9kNnl2YW5xLWZmOWY5MzZmLWZhZTctNDE0MC1hMTRhLTkwZDQ2NWQwZWU2My5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.8GcUQZWyduoDw0097aVk-qLfwQg3Optbw9Sa3-S6eO8);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ruinsbackground{
+    background-image: url(https://i.redd.it/ulisszd010r41.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.beachbackground{
+    background-image: url(https://data.whicdn.com/images/310371956/original.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.volcanobackground{
+    background-image: url(https://i.imgur.com/zHb0ydy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.factorybackground{
+    background-image: url(https://lh3.googleusercontent.com/proxy/Olf5infRbQrG2qeUe2Ine5kc7HT07mTanypYpeCQmrh5dwjzgaIs7lE4vaCn4wgOaK8bOQ7Ft2Vq2sbT1h-mVv9ZhbgzAWlJ5d_qu2BAfbEhxapA);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.forestbackground{
+    background-image: url(https://pbs.twimg.com/media/DVMT-6OXcAE2rZY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cemeterybackground{
+    background-image: url(https://data.whicdn.com/images/307817007/original.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cavebackground{
+    background-image: url(https://64.media.tumblr.com/02b8deab97b5946100b9d4288eaaf039/tumblr_p1zdutBU2V1soktugo1_1280.gifv);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seabackground{
+    background-image: url(https://i.pinimg.com/originals/82/90/57/8290570d625fde9e2fba3286af33c568.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grasslandbackground{
+    background-image: url(https://cdn140.picsart.com/314426376159201.jpg?type=webp&to=min&r=640);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+}
+
+.container{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.balls{
+    width: 150px;
+    height: 150px;
+}
+
+.ball1{
+    align-items: center;
+}
+
+.ball2{
+    align-items: center;
+}
+
+.ball3{
+    align-items: center;
+}
+
+.poke{
+    width: 200px;
+    height: 200px;
+}
+
+.poke1{
+    align-items: center;
+}
+
+.poke2{
+    align-items: center;
+}
+
+.poke3{
+    align-items: center;
+}
+/* TEXTBOXES */
+.title{
+    border: 5px inset rgb(255, 255, 255);
+    padding: 25px;
+    width:750px;
+    height:10px;
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+    font-size:15pt;
+    background-color: rgb(255, 70, 70);
+}
+.pokedetails{
+    padding: 25px;
+    width:760px;
+    height:10px;
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(216, 153, 153);
+    background-color: rgb(255, 236, 236);
+}
+.description{
+    padding: 20px;
+    margin:10px;
+    margin-left:-1px;
+    width:770px;
+    height:100px;
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(0, 0, 0);
+    background-color: white;
+    text-align:center;
+}
+/* TEXT ALIGN */
+.textcenter{
+    text-align: center;
+}
+/* BACKGROUNDS */
+
+.homebackground{
+    background-image: url(images/bedroom2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.arceusbg{
+    background-image: url(https://thumbs.gfycat.com/GroundedTinyBluejay-small.gif);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.mewtwobg{
+    background-image: url(https://cdn.dribbble.com/users/1162077/screenshots/4382009/animated-pattern.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rayquazabg{
+    background-image: url(https://thumbs.gfycat.com/ElderlyBiodegradableAfricanpiedkingfisher-size_restricted.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* FLEXBOXES */
+.flexgrid{
+    display:flex;
+}
+.col{
+    flex: 1;
+}
+.child-doll{
+    display: flex;
+    flex-wrap: column wrap;
+    justify-content:center;
+    margin-top: 15%;
+    height: 30vh;
+}
+.battlecontainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px inset rgb(255, 105, 105);
+    padding: 20px;
+    margin: 20px;
+    margin-top:100px;
+    background-color:white;
+    position: sticky;
+}
+.habitatscontainer{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content:center;
+}
+.summaryformat{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content:space-around;
+    align-items:initial;
+    height: 30vh;
+    width: 100vw;
+    margin-top:3%;
+}
+
+/* SIZE PICTURES */
+.habitats{
+    height:120px;
+    
+}
+.pokeball{
+    height:25px;
+    width:25px;
+}
+.pokesize{
+    height:150%;
+}
+.picturetextP{
+    display:inline-block;
+    height: 25px;
+}
+.picturetextT{
+    display:inline-block;
+    margin-top: 1px;
+}
