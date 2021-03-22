@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+}
+
+/* STARTER HTML */
+.startertextbox{
+    border: 10px inset rgb(40, 167, 206);
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+    position: sticky;
+    bottom: 20px;
+    background-color: white;
+    justify-content: center;
+}
+
+.labbackground{
+    background-image: url(images/lab.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.container{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+
+.balls{
+    width: 100px;
+    height: 100px;
+}
+
+.ball1{
+    align-items: center;
+}
+
+.ball2{
+    align-items: center;
+}
+
+.ball3{
+    align-items: center;
+}
+
+.poke{
+    width: 200px;
+    height: 200px;
+}
+
+.poke1{
+    align-items: center;
+}
+
+.poke2{
+    align-items: center;
+}
+
+.poke3{
+    align-items: center;
+}
+
+/* END HTML */
+/* END HTML BACKGROUNDS */
+.endbackground{
+    background-image: url(images/yellow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.endbackground1{
+    background-image: url(images/green.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.endbackground2{
+    background-image: url(images/purple.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.endbackground3{
+    background-image: url(images/runbackground.gif);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    justify-content: center;
+}
+
+/* END HTML TEXTBOXES */
+.endtextbox {
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+    flex: 1;
+    margin: 20px;
+    border: 10px inset rgb(40, 167, 206);
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 10%;
+}  
+
+.option{
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    margin: 20px;
+    border: 10px inset rgb(40, 167, 206);
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 10%;
+    align-items: center;
+}  
+
+a:link{
+    text-decoration: none;
+}
+
+.restart{
+    color: black;
+}
+
+/* END HTML Container for textbox */
+.creditscontainer{
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    bottom: 0;
+}
+
+/* END HTML DISPLAY SIZE */
+.endcontainer{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+}
+
+/* END HTML ITEMS */
+.item1{
+    height: 320px;
+    width: 320px;
+}
+
+.item2{
+    height: 250px;
+    width: 250px;
+}
+
+.item3{
+    height: 320px;
+    width: 320px;
+}
+
+/* END HTML RUN ITEMS */
+.runcontainer{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    margin-top: 10%;
+    padding-top: 4%;
+}
+
+.run1{
+    height: 195px;
+    width: 195px;
+}
+
+.run2{
+    height: 195px;
+    width: 195px;
+}
